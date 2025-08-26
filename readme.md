@@ -51,4 +51,4 @@ An open source leader-follower robotic arm system with 7 degrees of freedom, mad
 
 ## License
 
-* *This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.* *
+_This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details._ 
