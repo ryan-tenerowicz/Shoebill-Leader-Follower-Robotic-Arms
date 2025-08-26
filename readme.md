@@ -2,21 +2,21 @@
 
 Shoebill Banner
 
-An open source leader-follower robotic arm system with 7 degrees of freedom, made by Vassar Robotics
+An open source leader-follower robotic arm system with 7 degrees of freedom, made by Vassar Robotics - inspired by GELLO kinematics, compatible with LeRobot software and common arms in the market (ARX, Trossen, I2RT, etc.)
 
 ## Overview
 
 Shoebill Leader & Follower in action
 
-**Build specs:** ~$750 cost | 3-5 days lead time | Intermediate skill level
+**Build specs:** Intermediate skill level
 
 Shoebill is a leader-follower robotic arm system featuring:
 
-* 🎯 **7-axis articulated movement** with FeeTech servo motors
-* 🤖 **Leader/Follower teleoperation** with 1:1 joint mapping
-* 💪 **Force feedback capability** via torque position setting
-* 🎮 **LeRobot compatibility** for ACT training policy infrastructure
-* 🔧 **Open source SDK** with pip-installable Vassar-FeeTech servo SDK
+* **7 DoF articulated movement** with FeeTech servo motors
+* **Leader/Follower teleoperation** with 1:1 joint mapping
+* **Force feedback capability** via torque position setting
+* **LeRobot compatibility** for ACT training policy infrastructure
+* **Open source SDK** with pip-installable Vassar-FeeTech servo SDK
 
 ## Build Guide
 
@@ -28,7 +28,7 @@ Shoebill is a leader-follower robotic arm system featuring:
 2. 🔧 Components & 3D Parts - Technical specs and electrical layout
 3. ⚙️ Servo Setup - Configure FeeTech HLS3625 servos
 4. 🎯 Leader Arm Assembly - GELLO kinematics, torsion-spring gripper
-5. 🏗️ Follower Arm Assembly - UMI-inspired end effector with TPU material
+5. 🏗️ Follower Arm Assembly - UMI-inspired end-effector with TPU material
 6. 🎮 Teleoperation Setup - Leader-follower mapping and control
 7. 🔍 Troubleshooting - Common issues and solutions
 
@@ -37,10 +37,6 @@ Shoebill is a leader-follower robotic arm system featuring:
 * **Bill of Materials**: Complete component list with suppliers
 * **3D Print Files**: Available in `/3D/` directory (OnShape CAD)
 * **Software Control**: Vassar-FeeTech SDK Repository
-
-## Project Status
-
-✅ **Production Ready** - This project is fully developed and available for purchase through Vassar Robotics.
 
 ## Key Features
 
@@ -52,15 +48,7 @@ Shoebill is a leader-follower robotic arm system featuring:
 ### Follower Arm
 * **UMI-Inspired End Effector** - Compliant TPU material for higher dexterity
 * **7 Degrees of Freedom** - More closely mimics human joint structure than 6 DoF
-* **12V FeeTech Servos** - 3 N·m output torque for robust performance
-
-## Community & Support
-
-### Getting Help
-
-* **Start here**: Troubleshooting Guide for common issues
-* **GitHub Issues**: Report bugs or ask questions
-* **Documentation**: Comprehensive setup and usage guides
+* **12V FeeTech Servos** - 3 N·m output torque for more robust performance
 
 ### Contributing
 
