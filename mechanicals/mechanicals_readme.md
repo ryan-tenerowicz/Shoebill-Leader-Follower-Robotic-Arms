@@ -30,6 +30,14 @@
 - Torsion spring for Leader Handle — shortened spring from kit: [Amazon torsion spring kit](https://www.amazon.com/dp/B0F9PLNYYF?ref=ppx_yo2ov_dt_b_fed_asin_title). Dimensions: 1.8 mm wire diameter, 14 mm OD coil, 35 mm arm length, 90° angle between arms. The kit includes 4 of the required springs.
 - Follower Gripper filament — TPU (Bambu TPU 95A HF): [Product page](https://us.store.bambulab.com/products/tpu-95a-hf?srsltid=AfmBOoqnEimr4z9msv1jPEgGg1KbVxdwoLSTeLrKnNZtwoZR6F3UUzg3&id=41469410607240).
 
+### Servos & Power
+
+- Leader Arm: 7 FeeTech HLS3625 servos with set-torque capability; 7.4 V power. See the Software section for examples using our open-source FeeTech SDK: [feetech-servo-sdk](https://github.com/vassar-robotics/feetech-servo-sdk).
+- Follower Arm: 7 servos — STS3215 or the more robust metal STS3250 — on 12 V power. In our assemblies, we use metal servos (STS3250) on joints 2 and 3 (highest torque), and STS3215 on the remaining joints.
+- Control: Both arms use a Waveshare servo driver board. Mixed STS daisy-chaining works correctly with the driver board.
+
 ### Assembly reference
 
 - The assembly is analogous to the SO-101. High-quality instructions are available here: [SO-101 assembly guide](https://huggingface.co/docs/lerobot/so101).
+- You can also intuit the assembly directly from the Onshape assemblies linked above.
+- For the two joints with cantilever beams, add a drop of blue Loctite to the single bolts that go into the servo horns. These are the only two bolts on which the entire assembly depends; Loctite increases long-term reliability.
