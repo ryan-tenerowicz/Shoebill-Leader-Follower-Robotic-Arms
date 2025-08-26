@@ -16,7 +16,7 @@ An open source leader-follower robotic arm system with 7 degrees of freedom, mad
 
 ## Build Guide
 
-### Complete Build Process
+### Build Process
 
 1. **[Materials and Components](/mechanicals/mechanicals_readme.md)** - List of materials used
 2. **[CAD Files](/mechanicals/)** - OnShape Link, STEP files
@@ -25,9 +25,9 @@ An open source leader-follower robotic arm system with 7 degrees of freedom, mad
 
 ### Quick Reference
 
-* **[Bill of Materials](/mechanicals/mechanicals_readme.md)**
+* **[Bill of Materials](/mechanicals/mechanicals_readme.md)**: Quick overview of materials needed to complete this project
 * **[OnShape Link](https://cad.onshape.com/documents/86c64a14309d3dc486db1708/w/d43f2d0114135ce97afe233c/e/5991fe5d18780685a3cfd26c?renderMode=0&uiState=68ade84d922c3160368c08fd)**: 3D Print files also available in `/mechanicals/` directory 
-* **[Vassar-FeeTech SDK Repository](https://github.com/vassar-robotics/feetech-servo-sdk)**
+* **[Vassar-FeeTech SDK Repository](https://github.com/vassar-robotics/feetech-servo-sdk)**: Use this to configure servos
 
 ## Key Features
 
