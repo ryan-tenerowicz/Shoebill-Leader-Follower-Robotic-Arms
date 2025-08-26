@@ -14,17 +14,9 @@ An open source leader-follower robotic arm system with 7 degrees of freedom, mad
 * **LeRobot compatibility** for ACT training policy infrastructure
 * **Open source SDK** with pip-installable Vassar-FeeTech servo SDK
 
-<div style="display: flex; justify-content: center; margin: 30px 0;">
-  <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/M9KmD0DPkaw" 
-    title="Dual Leader Demo - Shoebill Robotic Arms" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
-</div>
+[![Dual Leader - Shoebill Robotics Arm Demo Video](https://img.youtube.com/vi/M9KmD0DPkaw/maxresdefault.jpg)](https://www.youtube.com/watch?v=M9KmD0DPkaw)
+
+*Click the image above to watch a Dual Leader (with ARX R5 arms) - Shoebill Robotic Arms Demo*
 
 ## Build Guide
 
