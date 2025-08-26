@@ -1,4 +1,4 @@
-# Shoebill Leader & Follower
+# Shoebill Leader & Follower Robotic Arms
 
 ![Shoebill Banner](photos/DUAL_ARMS_BCKGND.jpeg)
 
@@ -16,7 +16,7 @@ An open source leader-follower robotic arm system with 7 degrees of freedom, mad
 
 [![Dual Leader - Shoebill Robotics Arm Demo Video](https://img.youtube.com/vi/M9KmD0DPkaw/maxresdefault.jpg)](https://www.youtube.com/watch?v=M9KmD0DPkaw)
 
-*Click the image above to watch a Dual Leader (with ARX R5 arms) - Shoebill Robotic Arms Demo*
+*Click the image above to watch a Dual Leader set-up (with ARX R5 arms) - Shoebill Robotic Arms Demo*
 
 ## Build Guide
 
@@ -49,6 +49,6 @@ An open source leader-follower robotic arm system with 7 degrees of freedom, mad
 * [Vassar Robotics Shop](https://shop.vassarrobotics.com/)
 * [LeRobot Documentation](https://huggingface.co/docs/lerobot/en/installation)
 
-## License 
+## License
 
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
