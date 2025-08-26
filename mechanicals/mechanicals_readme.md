@@ -39,3 +39,5 @@
 ### Assembly reference
 
 - The assembly is analogous to the SO-101. High-quality instructions are available here: [SO-101 assembly guide](https://huggingface.co/docs/lerobot/so101).
+- You can also intuit the assembly directly from the Onshape assemblies linked above.
+- For the two joints with cantilever beams, add a drop of blue Loctite to the single bolts that go into the servo horns. These are the only two bolts on which the entire assembly depends; Loctite increases long-term reliability.
