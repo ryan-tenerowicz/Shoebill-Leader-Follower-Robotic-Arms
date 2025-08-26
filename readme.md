@@ -1,6 +1,21 @@
 # Shoebill Leader & Follower
 
-![Shoebill Banner](photos/DUAL_ARMS_BCKGND.jpeg)
+<div style="display: flex; gap: 20px; align-items: center; margin: 20px 0;">
+  <div style="flex: 1;">
+    <img src="photos/DUAL_ARMS_BCKGND.jpeg" alt="Shoebill Banner" style="width: 100%; height: auto;">
+  </div>
+  <div style="flex: 1;">
+    <iframe 
+      width="100%" 
+      height="315" 
+      src="https://www.youtube.com/embed/M9KmD0DPkaw" 
+      title="Shoebill Robotic Arms Demo" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
 
 An open source leader-follower robotic arm system with 7 degrees of freedom, made by Vassar Robotics - inspired by GELLO kinematics, compatible with LeRobot software and common arms in the market (ARX, Trossen, I2RT, etc.)
 
@@ -41,6 +56,9 @@ An open source leader-follower robotic arm system with 7 degrees of freedom, mad
 * **7 Degrees of Freedom** - More closely mimics human joint structure than 6 DoF
 * **12V FeeTech Servos** - 3 N·m output torque for more robust performance
 
-### General Resources
+## General Resources
 * [Vassar Robotics Shop](https://shop.vassarrobotics.com/)
 * [LeRobot Documentation](https://huggingface.co/docs/lerobot/en/installation)
+
+## License 
+
