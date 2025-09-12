@@ -1,0 +1,1197 @@
+<?xml version="1.0" ?>
+<!-- Generated using onshape-to-robot -->
+<!-- Onshape https://cad.onshape.com/documents/8f0c406ec917b7dcd4f2a559/w/98dc4b308a1cdd23475c2f79/e/5e1992bfb0f88c9dc7357fb3 -->
+<robot name="urdf">
+  <!-- Link assembly_2 -->
+  <link name="assembly_2">
+    <inertial>
+      <origin xyz="0.000371669 -0.0122024 0.041647" rpy="0 0 0"/>
+      <mass value="0.0275445"/>
+      <inertia ixx="2.09633e-05" ixy="-1.25235e-07" ixz="-5.4837e-08" iyy="9.13324e-06" iyz="-1.20902e-06" izz="2.71049e-05"/>
+    </inertial>
+    <!-- Part motor1_holder_v1 -->
+    <visual>
+      <origin xyz="9.94325e-05 -4.16334e-17 -0.00861064" rpy="1.5708 1.22144e-08 2.39214e-15"/>
+      <geometry>
+        <mesh filename="package://assets/motor1_holder_v1.stl"/>
+      </geometry>
+      <material name="motor1_holder_v1_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="9.94325e-05 -4.16334e-17 -0.00861064" rpy="1.5708 1.22144e-08 2.39214e-15"/>
+      <geometry>
+        <mesh filename="package://assets/motor1_holder_v1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part base_so101_v2 -->
+    <visual>
+      <origin xyz="3.04734e-19 0 -0.0085" rpy="1.5708 1.22144e-08 0"/>
+      <geometry>
+        <mesh filename="package://assets/base_so101_v2.stl"/>
+      </geometry>
+      <material name="base_so101_v2_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="3.04734e-19 0 -0.0085" rpy="1.5708 1.22144e-08 0"/>
+      <geometry>
+        <mesh filename="package://assets/base_so101_v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ge_27 -->
+    <visual>
+      <origin xyz="6.08275e-10 -0.04515 0.0413" rpy="-3.14159 -1.72327e-14 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/ge_27.stl"/>
+      </geometry>
+      <material name="ge_27_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="6.08275e-10 -0.04515 0.0413" rpy="-3.14159 -1.72327e-14 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/ge_27.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part xg_ziji_16 -->
+    <visual>
+      <origin xyz="6.81562e-10 -0.01965 0.0473" rpy="1.5708 -6.31089e-30 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/xg_ziji_16.stl"/>
+      </geometry>
+      <material name="xg_ziji_16_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="6.81562e-10 -0.01965 0.0473" rpy="1.5708 -6.31089e-30 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/xg_ziji_16.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part pcb_chazuo_92 -->
+    <visual>
+      <origin xyz="6.81562e-10 -0.01965 0.0473" rpy="1.5708 -6.31089e-30 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/pcb_chazuo_92.stl"/>
+      </geometry>
+      <material name="pcb_chazuo_92_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="6.81562e-10 -0.01965 0.0473" rpy="1.5708 -6.31089e-30 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/pcb_chazuo_92.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part zk_122 -->
+    <visual>
+      <origin xyz="6.81562e-10 -0.01965 0.0473" rpy="1.5708 -6.31089e-30 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/zk_122.stl"/>
+      </geometry>
+      <material name="zk_122_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="6.81562e-10 -0.01965 0.0473" rpy="1.5708 -6.31089e-30 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/zk_122.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 金属舵盘_驱动__v2 -->
+    <visual>
+      <origin xyz="4.69031e-10 -0.05515 0.0299" rpy="1.5708 -3.63043e-14 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_驱动__v2.stl"/>
+      </geometry>
+      <material name="金属舵盘_驱动__v2_material">
+        <color rgba="0.960784 0.960784 0.964706 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="4.69031e-10 -0.05515 0.0299" rpy="1.5708 -3.63043e-14 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_驱动__v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 金属舵盘_从动__v2 -->
+    <visual>
+      <origin xyz="7.75598e-11 -0.03515 -0.00215" rpy="-1.5708 7.21645e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_从动__v2.stl"/>
+      </geometry>
+      <material name="金属舵盘_从动__v2_material">
+        <color rgba="0.960784 0.960784 0.964706 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="7.75598e-11 -0.03515 -0.00215" rpy="-1.5708 7.21645e-15 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_从动__v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_1723_3 -->
+    <visual>
+      <origin xyz="-0.00125 -0.01965 0.02445" rpy="1.5708 -1.22144e-08 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/motor_1723_3.stl"/>
+      </geometry>
+      <material name="motor_1723_3_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00125 -0.01965 0.02445" rpy="1.5708 -1.22144e-08 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/motor_1723_3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part sg_ziji_15 -->
+    <visual>
+      <origin xyz="6.81562e-10 -0.01965 0.0473" rpy="1.5708 -6.31089e-30 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/sg_ziji_15.stl"/>
+      </geometry>
+      <material name="sg_ziji_15_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="6.81562e-10 -0.01965 0.0473" rpy="1.5708 -6.31089e-30 1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/sg_ziji_15.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link assembly_8 -->
+  <link name="assembly_8">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_1 -->
+    <visual>
+      <origin xyz="0.000236556 3.53806e-08 0.0182" rpy="3.14159 -2.22061e-16 -3.14144"/>
+      <geometry>
+        <mesh filename="package://assets/part_1.stl"/>
+      </geometry>
+      <material name="part_1_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.000236556 3.53806e-08 0.0182" rpy="3.14159 -2.22061e-16 -3.14144"/>
+      <geometry>
+        <mesh filename="package://assets/part_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ge_27_2 -->
+    <visual>
+      <origin xyz="-0.0126595 -0.00400189 -0.0252617" rpy="1.5708 3.05295e-16 -3.14144"/>
+      <geometry>
+        <mesh filename="package://assets/ge_27.stl"/>
+      </geometry>
+      <material name="ge_27_2_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0126595 -0.00400189 -0.0252617" rpy="1.5708 3.05295e-16 -3.14144"/>
+      <geometry>
+        <mesh filename="package://assets/ge_27.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part xg_ziji_16_2 -->
+    <visual>
+      <origin xyz="-0.0381586 -0.0100057 -0.0252617" rpy="1.11005e-16 1.11006e-16 -3.14144"/>
+      <geometry>
+        <mesh filename="package://assets/xg_ziji_16.stl"/>
+      </geometry>
+      <material name="xg_ziji_16_2_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0381586 -0.0100057 -0.0252617" rpy="1.11005e-16 1.11006e-16 -3.14144"/>
+      <geometry>
+        <mesh filename="package://assets/xg_ziji_16.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part pcb_chazuo_92_2 -->
+    <visual>
+      <origin xyz="-0.0381586 -0.0100057 -0.0252617" rpy="1.11005e-16 1.11006e-16 -3.14144"/>
+      <geometry>
+        <mesh filename="package://assets/pcb_chazuo_92.stl"/>
+      </geometry>
+      <material name="pcb_chazuo_92_2_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0381586 -0.0100057 -0.0252617" rpy="1.11005e-16 1.11006e-16 -3.14144"/>
+      <geometry>
+        <mesh filename="package://assets/pcb_chazuo_92.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part zk_122_2 -->
+    <visual>
+      <origin xyz="-0.0381586 -0.0100057 -0.0252617" rpy="1.11005e-16 1.11006e-16 -3.14144"/>
+      <geometry>
+        <mesh filename="package://assets/zk_122.stl"/>
+      </geometry>
+      <material name="zk_122_2_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0381586 -0.0100057 -0.0252617" rpy="1.11005e-16 1.11006e-16 -3.14144"/>
+      <geometry>
+        <mesh filename="package://assets/zk_122.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 金属舵盘_驱动__v2_2 -->
+    <visual>
+      <origin xyz="-0.00266117 0.0073996 -0.0252617" rpy="2.0815e-16 6.10606e-16 -3.14144"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_驱动__v2.stl"/>
+      </geometry>
+      <material name="金属舵盘_驱动__v2_2_material">
+        <color rgba="0.960784 0.960784 0.964706 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00266117 0.0073996 -0.0252617" rpy="2.0815e-16 6.10606e-16 -3.14144"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_驱动__v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 金属舵盘_从动__v2_2 -->
+    <visual>
+      <origin xyz="-0.022666 0.0394466 -0.0252617" rpy="-3.60805e-16 -5.82851e-16 0.000149565"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_从动__v2.stl"/>
+      </geometry>
+      <material name="金属舵盘_从动__v2_2_material">
+        <color rgba="0.960784 0.960784 0.964706 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.022666 0.0394466 -0.0252617" rpy="-3.60805e-16 -5.82851e-16 0.000149565"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_从动__v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_1723_3_2 -->
+    <visual>
+      <origin xyz="-0.038162 0.0128443 -0.0265117" rpy="3.14144 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_1723_3.stl"/>
+      </geometry>
+      <material name="motor_1723_3_2_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.038162 0.0128443 -0.0265117" rpy="3.14144 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_1723_3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part sg_ziji_15_2 -->
+    <visual>
+      <origin xyz="-0.0381586 -0.0100057 -0.0252617" rpy="1.11005e-16 1.11006e-16 -3.14144"/>
+      <geometry>
+        <mesh filename="package://assets/sg_ziji_15.stl"/>
+      </geometry>
+      <material name="sg_ziji_15_2_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0381586 -0.0100057 -0.0252617" rpy="1.11005e-16 1.11006e-16 -3.14144"/>
+      <geometry>
+        <mesh filename="package://assets/sg_ziji_15.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link assembly_7 -->
+  <link name="assembly_7">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_1_2 -->
+    <visual>
+      <origin xyz="-0.161258 0.005765 0.0175" rpy="-1.33542e-22 -1.69605e-15 2.03367e-16"/>
+      <geometry>
+        <mesh filename="package://assets/part_1__2.stl"/>
+      </geometry>
+      <material name="part_1_2_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.161258 0.005765 0.0175" rpy="-1.33542e-22 -1.69605e-15 2.03367e-16"/>
+      <geometry>
+        <mesh filename="package://assets/part_1__2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ge_27_3 -->
+    <visual>
+      <origin xyz="-0.161258 0.005765 0.01385" rpy="4.16334e-16 -2.82883e-15 -4.79985e-18"/>
+      <geometry>
+        <mesh filename="package://assets/ge_27.stl"/>
+      </geometry>
+      <material name="ge_27_3_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.161258 0.005765 0.01385" rpy="4.16334e-16 -2.82883e-15 -4.79985e-18"/>
+      <geometry>
+        <mesh filename="package://assets/ge_27.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part xg_ziji_16_3 -->
+    <visual>
+      <origin xyz="-0.135758 0.005765 0.00785" rpy="-1.5708 -1.85392e-15 1.89489e-16"/>
+      <geometry>
+        <mesh filename="package://assets/xg_ziji_16.stl"/>
+      </geometry>
+      <material name="xg_ziji_16_3_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.135758 0.005765 0.00785" rpy="-1.5708 -1.85392e-15 1.89489e-16"/>
+      <geometry>
+        <mesh filename="package://assets/xg_ziji_16.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part pcb_chazuo_92_3 -->
+    <visual>
+      <origin xyz="-0.135758 0.005765 0.00785" rpy="-1.5708 -1.85392e-15 1.89489e-16"/>
+      <geometry>
+        <mesh filename="package://assets/pcb_chazuo_92.stl"/>
+      </geometry>
+      <material name="pcb_chazuo_92_3_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.135758 0.005765 0.00785" rpy="-1.5708 -1.85392e-15 1.89489e-16"/>
+      <geometry>
+        <mesh filename="package://assets/pcb_chazuo_92.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part zk_122_3 -->
+    <visual>
+      <origin xyz="-0.135758 0.005765 0.00785" rpy="-1.5708 -1.85392e-15 1.89489e-16"/>
+      <geometry>
+        <mesh filename="package://assets/zk_122.stl"/>
+      </geometry>
+      <material name="zk_122_3_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.135758 0.005765 0.00785" rpy="-1.5708 -1.85392e-15 1.89489e-16"/>
+      <geometry>
+        <mesh filename="package://assets/zk_122.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 金属舵盘_驱动__v2_3 -->
+    <visual>
+      <origin xyz="-0.171258 0.005765 0.02525" rpy="-1.5708 -1.80361e-15 -3.10111e-16"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_驱动__v2.stl"/>
+      </geometry>
+      <material name="金属舵盘_驱动__v2_3_material">
+        <color rgba="0.960784 0.960784 0.964706 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.171258 0.005765 0.02525" rpy="-1.5708 -1.80361e-15 -3.10111e-16"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_驱动__v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 金属舵盘_从动__v2_3 -->
+    <visual>
+      <origin xyz="-0.151258 0.005765 0.0573" rpy="1.5708 -5.30009e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_从动__v2.stl"/>
+      </geometry>
+      <material name="金属舵盘_从动__v2_3_material">
+        <color rgba="0.960784 0.960784 0.964706 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.151258 0.005765 0.0573" rpy="1.5708 -5.30009e-15 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_从动__v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_1723_3_3 -->
+    <visual>
+      <origin xyz="-0.135758 0.004515 0.0307" rpy="-1.5708 -2.77556e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/motor_1723_3.stl"/>
+      </geometry>
+      <material name="motor_1723_3_3_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.135758 0.004515 0.0307" rpy="-1.5708 -2.77556e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/motor_1723_3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part sg_ziji_15_3 -->
+    <visual>
+      <origin xyz="-0.135758 0.005765 0.00785" rpy="-1.5708 -1.85392e-15 1.89489e-16"/>
+      <geometry>
+        <mesh filename="package://assets/sg_ziji_15.stl"/>
+      </geometry>
+      <material name="sg_ziji_15_3_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.135758 0.005765 0.00785" rpy="-1.5708 -1.85392e-15 1.89489e-16"/>
+      <geometry>
+        <mesh filename="package://assets/sg_ziji_15.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link assembly_6 -->
+  <link name="assembly_6">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_1_3 -->
+    <visual>
+      <origin xyz="0.146391 -0.0325142 0.0175" rpy="5.55293e-16 1.76302e-16 3.12582"/>
+      <geometry>
+        <mesh filename="package://assets/part_1__3.stl"/>
+      </geometry>
+      <material name="part_1_3_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.146391 -0.0325142 0.0175" rpy="5.55293e-16 1.76302e-16 3.12582"/>
+      <geometry>
+        <mesh filename="package://assets/part_1__3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ge_27_4 -->
+    <visual>
+      <origin xyz="0.146391 -0.0325142 0.01395" rpy="1.66684e-14 9.34609e-17 3.12582"/>
+      <geometry>
+        <mesh filename="package://assets/ge_27.stl"/>
+      </geometry>
+      <material name="ge_27_4_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.146391 -0.0325142 0.01395" rpy="1.66684e-14 9.34609e-17 3.12582"/>
+      <geometry>
+        <mesh filename="package://assets/ge_27.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part xg_ziji_16_4 -->
+    <visual>
+      <origin xyz="0.120894 -0.0321121 0.00795" rpy="-1.5708 -1.75113e-17 3.12582"/>
+      <geometry>
+        <mesh filename="package://assets/xg_ziji_16.stl"/>
+      </geometry>
+      <material name="xg_ziji_16_4_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.120894 -0.0321121 0.00795" rpy="-1.5708 -1.75113e-17 3.12582"/>
+      <geometry>
+        <mesh filename="package://assets/xg_ziji_16.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part pcb_chazuo_92_4 -->
+    <visual>
+      <origin xyz="0.120894 -0.0321121 0.00795" rpy="-1.5708 -1.75113e-17 3.12582"/>
+      <geometry>
+        <mesh filename="package://assets/pcb_chazuo_92.stl"/>
+      </geometry>
+      <material name="pcb_chazuo_92_4_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.120894 -0.0321121 0.00795" rpy="-1.5708 -1.75113e-17 3.12582"/>
+      <geometry>
+        <mesh filename="package://assets/pcb_chazuo_92.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part zk_122_4 -->
+    <visual>
+      <origin xyz="0.120894 -0.0321121 0.00795" rpy="-1.5708 -1.75113e-17 3.12582"/>
+      <geometry>
+        <mesh filename="package://assets/zk_122.stl"/>
+      </geometry>
+      <material name="zk_122_4_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.120894 -0.0321121 0.00795" rpy="-1.5708 -1.75113e-17 3.12582"/>
+      <geometry>
+        <mesh filename="package://assets/zk_122.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 金属舵盘_驱动__v2_4 -->
+    <visual>
+      <origin xyz="0.156389 -0.0326719 0.02535" rpy="-1.5708 -1.75008e-17 3.12582"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_驱动__v2.stl"/>
+      </geometry>
+      <material name="金属舵盘_驱动__v2_4_material">
+        <color rgba="0.960784 0.960784 0.964706 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.156389 -0.0326719 0.02535" rpy="-1.5708 -1.75008e-17 3.12582"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_驱动__v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 金属舵盘_从动__v2_4 -->
+    <visual>
+      <origin xyz="0.136392 -0.0323565 0.0574" rpy="1.5708 1.02713e-13 -0.0157677"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_从动__v2.stl"/>
+      </geometry>
+      <material name="金属舵盘_从动__v2_4_material">
+        <color rgba="0.960784 0.960784 0.964706 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.136392 -0.0323565 0.0574" rpy="1.5708 1.02713e-13 -0.0157677"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_从动__v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_1723_3_4 -->
+    <visual>
+      <origin xyz="0.120913 -0.0308623 0.0308" rpy="-1.5708 2.01175e-14 1.55503"/>
+      <geometry>
+        <mesh filename="package://assets/motor_1723_3.stl"/>
+      </geometry>
+      <material name="motor_1723_3_4_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.120913 -0.0308623 0.0308" rpy="-1.5708 2.01175e-14 1.55503"/>
+      <geometry>
+        <mesh filename="package://assets/motor_1723_3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part sg_ziji_15_4 -->
+    <visual>
+      <origin xyz="0.120894 -0.0321121 0.00795" rpy="-1.5708 -1.75113e-17 3.12582"/>
+      <geometry>
+        <mesh filename="package://assets/sg_ziji_15.stl"/>
+      </geometry>
+      <material name="sg_ziji_15_4_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.120894 -0.0321121 0.00795" rpy="-1.5708 -1.75113e-17 3.12582"/>
+      <geometry>
+        <mesh filename="package://assets/sg_ziji_15.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link assembly_5 -->
+  <link name="assembly_5">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_1_4 -->
+    <visual>
+      <origin xyz="0.0411343 0.044825 0.0175" rpy="-1.5708 1.75261e-20 -6.9813e-19"/>
+      <geometry>
+        <mesh filename="package://assets/part_1__4.stl"/>
+      </geometry>
+      <material name="part_1_4_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0411343 0.044825 0.0175" rpy="-1.5708 1.75261e-20 -6.9813e-19"/>
+      <geometry>
+        <mesh filename="package://assets/part_1__4.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ge_27_5 -->
+    <visual>
+      <origin xyz="0.0411343 0.041275 0.0175" rpy="-1.5708 -1.94201e-16 9.14353e-16"/>
+      <geometry>
+        <mesh filename="package://assets/ge_27.stl"/>
+      </geometry>
+      <material name="ge_27_5_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0411343 0.041275 0.0175" rpy="-1.5708 -1.94201e-16 9.14353e-16"/>
+      <geometry>
+        <mesh filename="package://assets/ge_27.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part xg_ziji_16_5 -->
+    <visual>
+      <origin xyz="0.0666343 0.035275 0.0175" rpy="3.14159 1.75261e-20 -6.9813e-19"/>
+      <geometry>
+        <mesh filename="package://assets/xg_ziji_16.stl"/>
+      </geometry>
+      <material name="xg_ziji_16_5_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0666343 0.035275 0.0175" rpy="3.14159 1.75261e-20 -6.9813e-19"/>
+      <geometry>
+        <mesh filename="package://assets/xg_ziji_16.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part pcb_chazuo_92_5 -->
+    <visual>
+      <origin xyz="0.0666343 0.035275 0.0175" rpy="3.14159 1.75261e-20 -6.9813e-19"/>
+      <geometry>
+        <mesh filename="package://assets/pcb_chazuo_92.stl"/>
+      </geometry>
+      <material name="pcb_chazuo_92_5_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0666343 0.035275 0.0175" rpy="3.14159 1.75261e-20 -6.9813e-19"/>
+      <geometry>
+        <mesh filename="package://assets/pcb_chazuo_92.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part zk_122_5 -->
+    <visual>
+      <origin xyz="0.0666343 0.035275 0.0175" rpy="3.14159 1.75261e-20 -6.9813e-19"/>
+      <geometry>
+        <mesh filename="package://assets/zk_122.stl"/>
+      </geometry>
+      <material name="zk_122_5_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0666343 0.035275 0.0175" rpy="3.14159 1.75261e-20 -6.9813e-19"/>
+      <geometry>
+        <mesh filename="package://assets/zk_122.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 金属舵盘_驱动__v2_5 -->
+    <visual>
+      <origin xyz="0.0311343 0.052675 0.0175" rpy="-3.14159 -4.99556e-16 -5.62084e-17"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_驱动__v2.stl"/>
+      </geometry>
+      <material name="金属舵盘_驱动__v2_5_material">
+        <color rgba="0.960784 0.960784 0.964706 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0311343 0.052675 0.0175" rpy="-3.14159 -4.99556e-16 -5.62084e-17"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_驱动__v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 金属舵盘_从动__v2_5 -->
+    <visual>
+      <origin xyz="0.0511343 0.084725 0.0175" rpy="3.14159 4.71821e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_从动__v2.stl"/>
+      </geometry>
+      <material name="金属舵盘_从动__v2_5_material">
+        <color rgba="0.960784 0.960784 0.964706 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0511343 0.084725 0.0175" rpy="3.14159 4.71821e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_从动__v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_1723_3_5 -->
+    <visual>
+      <origin xyz="0.0666343 0.058125 0.01875" rpy="3.14159 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_1723_3.stl"/>
+      </geometry>
+      <material name="motor_1723_3_5_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0666343 0.058125 0.01875" rpy="3.14159 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_1723_3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part sg_ziji_15_5 -->
+    <visual>
+      <origin xyz="0.0666343 0.035275 0.0175" rpy="3.14159 1.75261e-20 -6.9813e-19"/>
+      <geometry>
+        <mesh filename="package://assets/sg_ziji_15.stl"/>
+      </geometry>
+      <material name="sg_ziji_15_5_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0666343 0.035275 0.0175" rpy="3.14159 1.75261e-20 -6.9813e-19"/>
+      <geometry>
+        <mesh filename="package://assets/sg_ziji_15.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link assembly_4 -->
+  <link name="assembly_4">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_1_5 -->
+    <visual>
+      <origin xyz="0 0.038016 -0.0312" rpy="-3.14159 -4.24034e-21 3.56385e-18"/>
+      <geometry>
+        <mesh filename="package://assets/part_1__5.stl"/>
+      </geometry>
+      <material name="part_1_5_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0.038016 -0.0312" rpy="-3.14159 -4.24034e-21 3.56385e-18"/>
+      <geometry>
+        <mesh filename="package://assets/part_1__5.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ge_27_6 -->
+    <visual>
+      <origin xyz="3.81538e-05 0.043216 -0.02" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/ge_27.stl"/>
+      </geometry>
+      <material name="ge_27_6_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="3.81538e-05 0.043216 -0.02" rpy="1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/ge_27.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part xg_ziji_16_6 -->
+    <visual>
+      <origin xyz="3.81538e-05 0.049216 -0.0455" rpy="-2.50642e-19 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/xg_ziji_16.stl"/>
+      </geometry>
+      <material name="xg_ziji_16_6_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="3.81538e-05 0.049216 -0.0455" rpy="-2.50642e-19 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/xg_ziji_16.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part pcb_chazuo_92_6 -->
+    <visual>
+      <origin xyz="3.81538e-05 0.049216 -0.0455" rpy="-2.50642e-19 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/pcb_chazuo_92.stl"/>
+      </geometry>
+      <material name="pcb_chazuo_92_6_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="3.81538e-05 0.049216 -0.0455" rpy="-2.50642e-19 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/pcb_chazuo_92.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part zk_122_6 -->
+    <visual>
+      <origin xyz="3.81538e-05 0.049216 -0.0455" rpy="-2.50642e-19 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/zk_122.stl"/>
+      </geometry>
+      <material name="zk_122_6_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="3.81538e-05 0.049216 -0.0455" rpy="-2.50642e-19 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/zk_122.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 金属舵盘_驱动__v2_6 -->
+    <visual>
+      <origin xyz="3.81538e-05 0.031816 -0.01" rpy="2.9682e-17 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_驱动__v2.stl"/>
+      </geometry>
+      <material name="金属舵盘_驱动__v2_6_material">
+        <color rgba="0.960784 0.960784 0.964706 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="3.81538e-05 0.031816 -0.01" rpy="2.9682e-17 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_驱动__v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 金属舵盘_从动__v2_6 -->
+    <visual>
+      <origin xyz="3.81538e-05 -0.000234 -0.03" rpy="-3.14159 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_从动__v2.stl"/>
+      </geometry>
+      <material name="金属舵盘_从动__v2_6_material">
+        <color rgba="0.960784 0.960784 0.964706 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="3.81538e-05 -0.000234 -0.03" rpy="-3.14159 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_从动__v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_1723_3_6 -->
+    <visual>
+      <origin xyz="-0.00121185 0.026366 -0.0455" rpy="3.14159 1.31298e-14 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/motor_1723_3.stl"/>
+      </geometry>
+      <material name="motor_1723_3_6_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00121185 0.026366 -0.0455" rpy="3.14159 1.31298e-14 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/motor_1723_3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part sg_ziji_15_6 -->
+    <visual>
+      <origin xyz="3.81538e-05 0.049216 -0.0455" rpy="-2.50642e-19 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/sg_ziji_15.stl"/>
+      </geometry>
+      <material name="sg_ziji_15_6_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="3.81538e-05 0.049216 -0.0455" rpy="-2.50642e-19 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/sg_ziji_15.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link assembly_3 -->
+  <link name="assembly_3">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part compliantgripper -->
+    <visual>
+      <origin xyz="-0.0138581 0.00484068 -0.0475" rpy="1.56923e-16 -1.3055e-16 1.49096"/>
+      <geometry>
+        <mesh filename="package://assets/compliantgripper.stl"/>
+      </geometry>
+      <material name="compliantgripper_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0138581 0.00484068 -0.0475" rpy="1.56923e-16 -1.3055e-16 1.49096"/>
+      <geometry>
+        <mesh filename="package://assets/compliantgripper.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_6 -->
+    <visual>
+      <origin xyz="0 0 -0.008" rpy="1.5708 1.96548e-17 -0.0798407"/>
+      <geometry>
+        <mesh filename="package://assets/part_1__6.stl"/>
+      </geometry>
+      <material name="part_1_6_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.008" rpy="1.5708 1.96548e-17 -0.0798407"/>
+      <geometry>
+        <mesh filename="package://assets/part_1__6.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ge_27_7 -->
+    <visual>
+      <origin xyz="-0.0052235 -0.0176396 -0.0245" rpy="1.5708 5.63783e-15 1.49096"/>
+      <geometry>
+        <mesh filename="package://assets/ge_27.stl"/>
+      </geometry>
+      <material name="ge_27_7_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0052235 -0.0176396 -0.0245" rpy="1.5708 5.63783e-15 1.49096"/>
+      <geometry>
+        <mesh filename="package://assets/ge_27.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part xg_ziji_16_7 -->
+    <visual>
+      <origin xyz="-0.00917061 0.00825772 -0.0245" rpy="-1.38709e-18 -1.33506e-16 1.49096"/>
+      <geometry>
+        <mesh filename="package://assets/xg_ziji_16.stl"/>
+      </geometry>
+      <material name="xg_ziji_16_7_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00917061 0.00825772 -0.0245" rpy="-1.38709e-18 -1.33506e-16 1.49096"/>
+      <geometry>
+        <mesh filename="package://assets/xg_ziji_16.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part pcb_chazuo_92_7 -->
+    <visual>
+      <origin xyz="-0.00917061 0.00825772 -0.0245" rpy="-1.38709e-18 -1.33506e-16 1.49096"/>
+      <geometry>
+        <mesh filename="package://assets/pcb_chazuo_92.stl"/>
+      </geometry>
+      <material name="pcb_chazuo_92_7_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00917061 0.00825772 -0.0245" rpy="-1.38709e-18 -1.33506e-16 1.49096"/>
+      <geometry>
+        <mesh filename="package://assets/pcb_chazuo_92.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part zk_122_7 -->
+    <visual>
+      <origin xyz="-0.00917061 0.00825772 -0.0245" rpy="-1.38709e-18 -1.33506e-16 1.49096"/>
+      <geometry>
+        <mesh filename="package://assets/zk_122.stl"/>
+      </geometry>
+      <material name="zk_122_7_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00917061 0.00825772 -0.0245" rpy="-1.38709e-18 -1.33506e-16 1.49096"/>
+      <geometry>
+        <mesh filename="package://assets/zk_122.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 金属舵盘_驱动__v2_7 -->
+    <visual>
+      <origin xyz="0.00534262 -0.0285169 -0.0245" rpy="-1.38709e-18 4.7031e-16 1.49096"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_驱动__v2.stl"/>
+      </geometry>
+      <material name="金属舵盘_驱动__v2_7_material">
+        <color rgba="0.960784 0.960784 0.964706 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00534262 -0.0285169 -0.0245" rpy="-1.38709e-18 4.7031e-16 1.49096"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_驱动__v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part 金属舵盘_从动__v2_7 -->
+    <visual>
+      <origin xyz="0.0388856 -0.0111368 -0.0245" rpy="3.48154e-14 -1.1915e-14 -1.65064"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_从动__v2.stl"/>
+      </geometry>
+      <material name="金属舵盘_从动__v2_7_material">
+        <color rgba="0.960784 0.960784 0.964706 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0388856 -0.0111368 -0.0245" rpy="3.48154e-14 -1.1915e-14 -1.65064"/>
+      <geometry>
+        <mesh filename="package://assets/金属舵盘_从动__v2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part motor_1723_3_7 -->
+    <visual>
+      <origin xyz="0.0136066 0.00643529 -0.02575" rpy="-1.49096 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_1723_3.stl"/>
+      </geometry>
+      <material name="motor_1723_3_7_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0136066 0.00643529 -0.02575" rpy="-1.49096 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/motor_1723_3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part sg_ziji_15_7 -->
+    <visual>
+      <origin xyz="-0.00917061 0.00825772 -0.0245" rpy="-1.38709e-18 -1.33506e-16 1.49096"/>
+      <geometry>
+        <mesh filename="package://assets/sg_ziji_15.stl"/>
+      </geometry>
+      <material name="sg_ziji_15_7_material">
+        <color rgba="0.0980392 0.0980392 0.0980392 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00917061 0.00825772 -0.0245" rpy="-1.38709e-18 -1.33506e-16 1.49096"/>
+      <geometry>
+        <mesh filename="package://assets/sg_ziji_15.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link assembly_1 -->
+  <link name="assembly_1">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part compliantgripper_2 -->
+    <visual>
+      <origin xyz="0.02315 0.02014 0.031" rpy="1.5708 2.05984e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/compliantgripper.stl"/>
+      </geometry>
+      <material name="compliantgripper_2_material">
+        <color rgba="0.231373 0.380392 0.705882 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.02315 0.02014 0.031" rpy="1.5708 2.05984e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/compliantgripper.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_7 -->
+    <visual>
+      <origin xyz="0.00115 3.46945e-18 0" rpy="1.5708 -5.61966e-19 1.25447e-18"/>
+      <geometry>
+        <mesh filename="package://assets/part_1__7.stl"/>
+      </geometry>
+      <material name="part_1_7_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00115 3.46945e-18 0" rpy="1.5708 -5.61966e-19 1.25447e-18"/>
+      <geometry>
+        <mesh filename="package://assets/part_1__7.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from assembly_3 to assembly_1 -->
+  <joint name="gripper" type="revolute">
+    <origin xyz="-0.0207738 -0.0163954 -0.0245" rpy="1.5708 1.56841 1.49096"/>
+    <parent link="assembly_3"/>
+    <child link="assembly_1"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from assembly_4 to assembly_3 -->
+  <joint name="wrist_rotate" type="revolute">
+    <origin xyz="3.81538e-05 0.058816 -0.02" rpy="1.5708 1.5708 0"/>
+    <parent link="assembly_4"/>
+    <child link="assembly_3"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from assembly_5 to assembly_4 -->
+  <joint name="wrist_pan" type="revolute">
+    <origin xyz="0.0411343 0.025675 0.0175" rpy="-1.5708 -1.55484 -6.02423e-15"/>
+    <parent link="assembly_5"/>
+    <child link="assembly_4"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from assembly_6 to assembly_5 -->
+  <joint name="wrist_raise" type="revolute">
+    <origin xyz="0.146391 -0.0325142 0.03615" rpy="-3.14159 -6.43979e-18 0.00578489"/>
+    <parent link="assembly_6"/>
+    <child link="assembly_5"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from assembly_7 to assembly_6 -->
+  <joint name="elbow_raise" type="revolute">
+    <origin xyz="-0.161258 0.005765 -0.00175" rpy="-5.55113e-17 -1.80361e-15 -3.10111e-16"/>
+    <parent link="assembly_7"/>
+    <child link="assembly_6"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from assembly_8 to assembly_7 -->
+  <joint name="shoulder_raise" type="revolute">
+    <origin xyz="-0.0126571 -0.0196019 -0.0252617" rpy="1.5708 6.10606e-16 -3.14144"/>
+    <parent link="assembly_8"/>
+    <child link="assembly_7"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+  <!-- Joint from assembly_2 to assembly_8 -->
+  <joint name="shoulder_pan" type="revolute">
+    <origin xyz="7.98819e-10 -0.04515 0.0569" rpy="-3.14159 -3.63043e-14 1.5708"/>
+    <parent link="assembly_2"/>
+    <child link="assembly_8"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+  </joint>
+</robot>
